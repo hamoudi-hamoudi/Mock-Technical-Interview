@@ -1,0 +1,19 @@
+.container-succses {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 30px;
+}
+img {
+  width: 40%;
+}
+p {
+  text-align: center;
+}
+.user-amount {
+  color: rgb(252, 140, 4);
+  padding: 10px;
+  border-radius: 50px;
+  background-color: rgb(64, 63, 63);
+  text-align: center;
+}

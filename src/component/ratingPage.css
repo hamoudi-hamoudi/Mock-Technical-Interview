@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: baseline;
+  gap: 30px;
+}
+.logo {
+  color: rgb(252, 140, 4);
+  width: 15px;
+  height: 15px;
+}
+
+.circle {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(49, 48, 48);
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(252, 140, 4);
+  border-radius: 50px;
+}
+.btn:hover {
+  color: rgb(252, 140, 4);
+  background-color: aliceblue;
+}
+.ratings {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.light {
+  background-color: rgb(255, 111, 0);
+  color: black;
+}
+p {
+  font-size: 1.2rem;
+  color: rgb(99, 99, 99);
+  text-align: left;
+}
