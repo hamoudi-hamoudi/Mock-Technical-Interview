@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BsStarFill } from "react-icons/bs";
 import "./ratingPage.css";
 
-function RatingPage({ setIsRated }) {
+function RatingPage({ setIsRated, setRatingValue }) {
   const ratingArray = [1, 2, 3, 4, 5];
   const [rateAmount, setRateAmount] = useState(null);
   const [hoverdRate, setHoverdRate] = useState(null);
@@ -18,6 +18,7 @@ function RatingPage({ setIsRated }) {
   const handleBtnClick = () => {
     if (rateAmount) {
       setIsRated(true);
+      setRatingValue(rateAmount);
     }
   };
   const RenderRate = ratingArray.map((e, i) => {
